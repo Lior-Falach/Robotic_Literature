@@ -14,3 +14,7 @@
 ***
 
 ### [Reconstructing occluded elevation information in terrain maps with self-supervised learning, 2022](/Perception_for_Locomotion/Reconstructing%20occluded%20elevation%20information%20in%20terrain%20maps%20with%20self-supervised%20learning.pdf)
+
+***
+
+### [Identifying Terrain Physical Parameters from Vision -- Towards Physical-Parameter-Aware Locomotion and Navigation, 2024](/Perception_for_Locomotion/Identifying%20Terrain%20Physical%20Parameters%20from%20Vision%20--%20Towards%20Physical-Parameter-Aware%20Locomotion%20and%20Navigation.pdf) 

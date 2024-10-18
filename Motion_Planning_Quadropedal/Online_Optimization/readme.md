@@ -22,3 +22,7 @@
 ***
 
 ### [Vision-aided Dynamic Quadrupedal Locomotion on Discrete Terrain using Motion Libraries](/Motion_Planning_Quadropedal/Online_Optimization/Vision-aided%20Dynamic%20Quadrupedal%20Locomotion%20on%20Discrete%20Terrain%20using%20Motion%20Libraries.pdf)
+
+***
+
+### [TAMOLS: Terrain-Aware Motion Optimization for Legged Systems, 2022](/Motion_Planning_Quadropedal/Online_Optimization/TAMOLS:%20Terrain-Aware%20Motion%20Optimization%20for%20Legged%20Systems.pdf)
