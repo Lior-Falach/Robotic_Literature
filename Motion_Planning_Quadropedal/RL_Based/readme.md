@@ -116,7 +116,15 @@ In all this is a highly robust yet seems overly convoluded, in addition the curr
  
 ***
 
+### [ANYmal Parkour: Learning Agile Navigation for Quadrupedal Robots, 2023](/Motion_Planning_Quadropedal/RL_Based/ANYmal%20Parkour:%20Learning%20Agile%20Navigation%20for%20Quadrupedal%20Robots.pdf)
+
+***
+
 ### [DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning, 2022](/Motion_Planning_Quadropedal/RL_Based/DreamWaQ:%20Learning%20Robust%20Quadrupedal%20Locomotion%20With%20Implicit%20Terrain%20Imagination%20via%20Deep%20Reinforcement%20Learning.pdf)
+
+***
+
+### [Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios, 2023](/Motion_Planning_Quadropedal/RL_Based/Adaptive%20Control%20Strategy%20for%20Quadruped%20Robots%20in%20Actuator%20Degradation%20Scenarios.pdf)
 
 ## 2024
 
@@ -161,3 +169,45 @@ Lior: We could use the internal model approach and augment the reward structure 
  ***
 
  ### [Learning Risk-Aware Quadrupedal Locomotion using Distributional Reinforcement Learning, 2024](/Motion_Planning_Quadropedal/RL_Based/Learning%20Risk-Aware%20Quadrupedal%20Locomotion%20using%20Distributional%20Reinforcement%20Learning.pdf)
+
+***
+
+ ### [Learning to Adapt: Bio-Inspired Gait Strategies for Versatile Quadruped Locomotion](/Motion_Planning_Quadropedal/RL_Based/Learning%20to%20Adapt:%20Bio-Inspired%20Gait%20Strategies%20for%20Versatile%20Quadruped%20Locomotion.pdf)
+
+This paper takes the RL approach to quadroped locomotion, realizing  the different motion gait are suitable to different terrain type and velocity two policies are designe.
+The first is a locomotion policy which outputs the motion actions. The input to the locomotion policy is the velocity command concatenated with the policy selection, an integer [0,7].
+The policy selection if the output if the policy selection policy which selects which gait parameters to apply. While the locomotion policy has a standart reward function the policy selection policy has an interesting structure as the parameters for the gait transition 
+in the wild are not well defined, a primary discriminant is the CoT measure.
+The paper makes use on additional structure such as a state estimator and and gate generator process which serves as a referance for the locomotion policy.
+The work is done in RaiSim.
+ ***
+
+ ### [Robust Ladder Climbing with a Quadrupedal Robot, 2024](/Motion_Planning_Quadropedal/RL_Based/Robust%20Ladder%20Climbing%20with%20a%20Quadrupedal%20Robot.pdf)
+
+ *** 
+
+ ### [MBC: Multi-Brain Collaborative Control for Quadruped Robots, 2024](/Motion_Planning_Quadropedal/RL_Based/MBC:%20Multi-Brain%20Collaborative%20Control%20for%20Quadroped%20robots.pdf)
+
+ ***
+
+ ### [ Learning to Walk in confined spaces using 3D representation, 2024](/Motion_Planning_Quadropedal/RL_Based/Learning%20to%20walk%20in%20confined%20spaces%20using%203D%20representation,%202024.pdf)
+
+ ***
+
+ ### [DTC: Deep Tracking Control, 2024](/Motion_Planning_Quadropedal/RL_Based/DTC:%20Deep%20Tracking%20Control.pdf)
+
+***
+
+ ### [PA-LOCO: Learning Perturbation-Adaptive Locomotion for Quadruped Robots, 2024](/Motion_Planning_Quadropedal/RL_Based/PA-LOCO:%20Learning%20Perturbation-Adaptive%20Locomotion%20for%20Quadruped%20Robots.pdf)
+
+ ***
+
+ ### [Learning Visual Parkour from Generated Images , 2024](/Motion_Planning_Quadropedal/RL_Based/Learning%20Visual%20Parkour%20from%20Generated%20Images.pdf)
+
+ ***
+
+ ### [SoloParkour: Constrained Reinforcement Learning for Visual Locomotion from Privileged Experience, 2024](/Motion_Planning_Quadropedal/RL_Based/SoloParkour:%20Constrained%20Reinforcement%20Learning.pdf)
+
+ ***
+
+ ### [Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios, 2024](/Motion_Planning_Quadropedal/RL_Based/Adaptive%20Control%20Strategy%20for%20Quadruped%20Robots%20in%20Actuator%20Degradation%20Scenarios.pdf)
